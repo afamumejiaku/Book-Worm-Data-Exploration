@@ -4,9 +4,11 @@
 This repository contains a comprehensive data exploration analysis for the Book-Worm Dataset. The analysis examines 3 years of weekly marketing data across 7 media channels to assess data readiness and uncover key insights.
 
 ## Files Included
-- `01_mmm_data_exploration.ipynb` - Main data exploration notebook
+- `data_exploration.ipynb` - Main data exploration notebook
 - `MediaSpend.xlsx` - Media channel spend data (157 weeks)
 - `ProjectInputData.xlsx` - KPI and performance metrics data (157 weeks)
+- Images
+- Requirement file
 
 ## Dataset Summary
 - **Time Period**: January 2022 - December 2024 (157 weeks)
@@ -30,7 +32,17 @@ This repository contains a comprehensive data exploration analysis for the Book-
 - Multiple performance metrics
 - Control variables included
 
-## Notebook Contents
+## Table of Contents
+1. [Data Loading & Overview](#1-data-loading--overview)
+2. [Data Quality Assessment](#2-data-quality-assessment)
+3. [Target Variable Analysis (KPI)](#3-target-variable-analysis-kpi)
+4. [Media Spend Analysis](#4-media-spend-analysis)
+5. [Media Performance Metrics](#5-media-performance-metrics)
+6. [Correlations & Relationships](#6-correlations--relationships)
+7. [Seasonality & Trends](#7-seasonality--trends)
+8. [Control Variables](#8-control-variables)
+9. [Data Readiness for MMM](#9-data-readiness-for-mmm)
+10. [Key Insights & Next Steps](#10-key-insights--next-steps)
 
 ### 1. Data Loading & Overview
 - Initial data inspection
@@ -130,16 +142,28 @@ jupyter lab
 ## Visualizations Generated
 
 The notebook creates several publication-quality visualizations:
-- KPI trends and distributions
-- Media spend allocation charts
-- Channel-specific performance trends
-- Correlation heatmaps
-- Seasonal pattern analysis
-- Efficiency metrics over time
-- Control variable impacts
-
+### KPI trends and distributions
+  ![Data overview](images/kpi_analysis.png)
+### Media spend distribution charts
+  ![Data overview](images/media_spend_distribution.png)
+### Media spend timeline charts
+  ![Data overview](images/media_spend_timeline.png)
+### Channel-specific performance trends
+  ![Data overview](images/individual_channel_trends.png)
+### Correlation Analysis
+  ![Data overview](images/correlation_analysis.png)
+### Correlation heatmaps
+  ![Data overview](images/correlation_heatmap.png)
+### Seasonal pattern analysis
+  ![Data overview](images/monthly_seasonality.png)
+### Efficiency metrics over time
+  ![Data overview](images/efficiency_metrics.png)
+### Control variable impacts
+  ![Data overview](images/control_variables_impact.png)
+### Select Scatter plot(Top 4)
+  ![Data overview](images/scatter_top_channels.png)
+  
 ## For Hiring Managers
-
 This notebook demonstrates:
 - **Data literacy**: Comprehensive understanding of relevant data requirements
 - **Statistical analysis**: Correlation, distribution, trend analysis

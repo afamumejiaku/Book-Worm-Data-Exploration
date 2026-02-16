@@ -140,28 +140,38 @@ jupyter lab
 
 
 ## Visualizations Generated
-
 The notebook creates several publication-quality visualizations:
+
 ### KPI trends and distributions
-  ![Data overview](images/kpi_analysis.png)
+![KPI trends and distributions](images/kpi_analysis.png)
+
 ### Media spend distribution charts
-  ![Data overview](images/media_spend_distribution.png)
+![Media spend distribution](images/media_spend_distribution.png)
+
 ### Media spend timeline charts
-  ![Data overview](images/media_spend_timeline.png)
+![Media spend timeline](images/media_spend_timeline.png)
+
 ### Channel-specific performance trends
-  ![Data overview](images/individual_channel_trends.png)
-### Correlation Analysis
-  ![Data overview](images/correlation_analysis.png)
+![Channel-specific performance trends](images/individual_channel_trends.png)
+
+### Correlation analysis
+![Correlation analysis](images/correlation_analysis.png)
+
 ### Correlation heatmaps
-  ![Data overview](images/correlation_heatmap.png)
+![Correlation heatmap](images/correlation_heatmap.png)
+
 ### Seasonal pattern analysis
-  ![Data overview](images/monthly_seasonality.png)
+![Monthly seasonality patterns](images/monthly_seasonality.png)
+
 ### Efficiency metrics over time
-  ![Data overview](images/efficiency_metrics.png)
+![Efficiency metrics over time](images/efficiency_metrics.png)
+
 ### Control variable impacts
-  ![Data overview](images/control_variables_impact.png)
-### Select Scatter plot(Top 4)
-  ![Data overview](images/scatter_top_channels.png)
+![Control variable impacts](images/control_variables_impact.png)
+
+### Select scatter plots (Top 4)
+![Top channel scatter plots](images/scatter_top_channels.png)
+
   
 ## For Hiring Managers
 This notebook demonstrates:
